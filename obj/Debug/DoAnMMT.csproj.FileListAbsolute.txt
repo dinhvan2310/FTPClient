@@ -1,0 +1,10 @@
+C:\Users\trand\source\repos\DoAnMMT\bin\Debug\DoAnMMT.exe.config
+C:\Users\trand\source\repos\DoAnMMT\bin\Debug\DoAnMMT.exe
+C:\Users\trand\source\repos\DoAnMMT\bin\Debug\DoAnMMT.pdb
+C:\Users\trand\source\repos\DoAnMMT\bin\Debug\FluentFTP.dll
+C:\Users\trand\source\repos\DoAnMMT\bin\Debug\FluentFTP.xml
+C:\Users\trand\source\repos\DoAnMMT\obj\Debug\DoAnMMT.csproj.AssemblyReference.cache
+C:\Users\trand\source\repos\DoAnMMT\obj\Debug\DoAnMMT.csproj.CoreCompileInputs.cache
+C:\Users\trand\source\repos\DoAnMMT\obj\Debug\DoAnMMT.csproj.CopyComplete
+C:\Users\trand\source\repos\DoAnMMT\obj\Debug\DoAnMMT.exe
+C:\Users\trand\source\repos\DoAnMMT\obj\Debug\DoAnMMT.pdb

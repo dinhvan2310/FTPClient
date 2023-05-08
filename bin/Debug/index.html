@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Title -->
+  <title>Music player</title>
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/4d56e47221.js" crossorigin="anonymous"></script>
+
+  <!-- Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap" rel="stylesheet">
+
+  <!-- Main__CSS -->
+  <link rel="stylesheet" href="./CSS/styles.css">
+</head>
+
+<body>
+
+
+
+  <div class="form__logIn">
+    <form action="" method="POST" class="form" id="form-2">
+      <h3 class="heading">Đăng nhập</h3>
+      <p class="desc">Web nghe nhạc số 2 VN (￣y▽￣)╭ Ohohoho.....</p>
+
+
+      <div class="spacer"></div>
+
+      <div class="form-group">
+        <label for="email" class="form-label">Email</label>
+        <input id="email" name="email" type="text" placeholder="VD: email@domain.com" class="form-control" />
+        <span class="form-message"></span>
+      </div>
+
+
+      <div class="form-group">
+        <label for="password" class="form-label">Mật khẩu</label>
+        <input id="password" name="password" type="password" placeholder="Nhập mật khẩu" class="form-control" />
+        <span class="form-message"></span>
+      </div>
+
+      <p style="font-size: 14px;">Don't have an account?  <a id="signUpBtn" href="#"> Sign up</a> </p>
+
+      <button id="signUpSubmit" class="form-submit">Đăng nhập</button>
+
+    </form>
+  </div>
+
+  <div class="form__signUp">
+    <form action="" method="POST" class="form" id="form-1">
+      <h3 class="heading">Đăng ký</h3>
+      <p class="desc">Web nghe nhạc số 2 VN (￣y▽￣)╭ Ohohoho.....</p>
+
+      <div class="spacer"></div>
+
+      <div class="form-group">
+        <label for="fullname" class="form-label">Tên đầy đủ</label>
+        <input id="fullname" name="fullname" type="text" placeholder="VD: Phương Thảo" class="form-control" />
+        <span class="form-message"></span>
+      </div>
+
+      <div class="form-group">
+        <label for="email" class="form-label">Email</label>
+        <input id="email" name="email" type="text" placeholder="VD: email@domain.com" class="form-control" />
+        <span class="form-message"></span>
+      </div>
+
+      <div class="form-group">
+        <label for="password" class="form-label">Mật khẩu</label>
+        <input id="password" name="password" type="password" placeholder="Nhập mật khẩu" class="form-control" />
+        <span class="form-message"></span>
+      </div>
+
+      <div class="form-group">
+        <label for="password_confirmation" class="form-label">Nhập lại mật khẩu</label>
+        <input id="password_confirmation" name="password_confirmation" placeholder="Nhập lại mật khẩu" type="password"
+          class="form-control" />
+        <span class="form-message"></span>
+      </div>
+
+
+      <button class="form-submit">Đăng ký</button>
+    </form>
+  </div>
+
+  <div class="player">
+    <!-- Dashboard -->
+    <div class="dashboard">
+      <!-- Header -->
+      <header>
+        <h4>Now playing:</h4>
+        <h2>String 57th & 9th</h2>
+      </header>
+
+      <!-- CD -->
+      <div class="cd">
+        <div class="cd-thumb" style="background-image: url('https://i.ytimg.com/vi/jTLhQf5KJSc/maxresdefault.jpg')">
+        </div>
+      </div>
+
+      <!-- Control -->
+      <div class="control">
+        <div class="btn btn-reset">
+          <i class="fas fa-redo"></i>
+        </div>
+        <div class="btn btn-repeat">
+          <i class="fa-solid fa-repeat"></i>
+        </div>
+        <div class="btn btn-prev">
+          <i class="fas fa-step-backward"></i>
+        </div>
+        <div class="btn btn-toggle-play">
+          <i class="fas fa-pause icon-pause"></i>
+          <i class="fas fa-play icon-play"></i>
+        </div>
+        <div class="btn btn-next">
+          <i class="fas fa-step-forward"></i>
+        </div>
+        <div class="btn btn-random">
+          <i class="fas fa-random"></i>
+        </div>
+        <div class="btn btn-volume">
+          <i class="fa-solid fa-volume-high"></i>
+          <div class="volume-set-up__box">
+            <input type="range" value="1" step="0.01" min="0" max="1" class="volume-set-up">
+          </div>
+        </div>
+      </div>
+
+      <input id="progress" class="progress" type="range" value="0" step="1" min="0" max="100">
+
+      <audio src="" id="audio"></audio>
+    </div>
+
+    <!-- Playlist -->
+    <div class="playlist">
+    </div>
+
+  </div>
+
+  
+
+  <script type="module" src="./JS/Main.js"></script>
+  
+
+
+
+</body>
+
+</html>
